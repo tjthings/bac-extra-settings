@@ -1,0 +1,14 @@
+{
+    "scoreboard": true,
+    "hardcore": false,
+    "terralith": false,
+    "rewards": {
+        "item_rewards": "on",
+        "exp_rewards": "on",
+        "trophies": "on"
+    },
+    "multiplayer": {
+        "co-op": false,
+        "team": "none"
+    }
+}
