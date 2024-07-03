@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"axolotl": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "minecraft:axolotl"
+				},
+				"partner": {
+					"type": "minecraft:axolotl"
+				}
+			}
+		}
+	}
+}

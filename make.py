@@ -52,7 +52,7 @@ def main():
     for i in ["function","functions"]:
         with open(os.path.join(cwd,'BAC-Settings','data','bac_settings',i,'settings.mcfunction'),"w") as f:
             f.write(function)
-        with open(os.path.join(cwd,'BAC-Settings','data','bac_settings',i,'tick.mcfunction'),"w") as f:
+        with open(os.path.join(cwd,'BAC-Settings','data','bac_settings',i,'team.mcfunction'),"w") as f:
             f.write(tick)
 
     print("Done!")
