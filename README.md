@@ -2,7 +2,7 @@
  Generates a datapack to apply settings automatically to a world running Blaze and Caves Advancement Pack, and adds extra scoreboards related to certain Blaze and Caves goals
 
 # Extra Statistics
-These scoreboard statistics are built into the datapack, if you would like only these stats but no standardized settings, download the preset datapack from the releases tab
+These scoreboard statistics are built into the datapack, if you would like only these stats but no standardized settings, download the "NO-SETTINGS" preset datapack from the releases tab
 
 Animals: Axolotls Bred, Pandas Bred, Llamas Tamed
 Chests: Ancient City Chests, Buried Treasures
@@ -13,9 +13,11 @@ All new statistics can be viewed by running the command **/trigger stats_view**
 
 # Standard Settings
 Datapack Presets Downloads (in releases)
-- No extra settings, only new statistics scoreboards
-- Automatically turn on advancement scoreboard
-- Scoreboard + no trophies (how I prefer to play :])
+- NO-SETTINGS: No extra settings, only new statistics scoreboards
+- SCOREBOARD: Automatically turn on advancement scoreboard
+- HARDCORE: Scoreboard + Hardcore/Terralith install functions (MUST DOWNLOAD THOSE DATAPACKS SEPARATELY)
+- NO-TROPHIES: Scoreboard + no trophies (how I prefer to play :])
+- CO-OP: Basic co-op settings, advancement rewards only go to first player, all players added to a the same team
 
 How to customize your settings:
 1) Download the source code from releases and unzip
