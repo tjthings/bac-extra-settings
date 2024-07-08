@@ -50,9 +50,9 @@ def main():
     
     # Write Datapack for both 1.21+ and 1.20-
     for i in ["function","functions"]:
-        with open(os.path.join(cwd,'BAC-Settings','data','bac_settings',i,'settings.mcfunction'),"w") as f:
+        with open(os.path.join(cwd,'BAC-Extra','data','bac_settings',i,'settings.mcfunction'),"w") as f:
             f.write(function)
-        with open(os.path.join(cwd,'BAC-Settings','data','bac_settings',i,'tick.mcfunction'),"w") as f:
+        with open(os.path.join(cwd,'BAC-Extra','data','bac_settings',i,'tick.mcfunction'),"w") as f:
             f.write(tick)
 
     print("Done!")
