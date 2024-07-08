@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"panda": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "minecraft:panda"
+				},
+				"partner": {
+					"type": "minecraft:panda"
+				}
+			}
+		}
+	}
+}

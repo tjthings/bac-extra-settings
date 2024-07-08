@@ -1,0 +1,10 @@
+{
+    "criteria": {
+		"ancient_city": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/ancient_city"
+			}
+		}
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "llama": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:llama"
+                }
+            }
+        }
+    }
+}
