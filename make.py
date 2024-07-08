@@ -46,6 +46,8 @@ def main():
                     print(f"Invalid team color given, type 'none' or one of the following teams:\n{teams}")
                     exit()
 
+        print_settings(settings)
+
     function +="\nscoreboard players set load settings_load 1"
     
     # Write Datapack for both 1.21+ and 1.20-
@@ -55,7 +57,18 @@ def main():
         with open(os.path.join(cwd,'BAC-Extra','data','bac_settings',i,'tick.mcfunction'),"w") as f:
             f.write(tick)
 
-    print("Done!")
+    print("\nDone!")
 
+def print_settings(settings):
+    print()
+    print("Scoreboard: "+ str(settings["scoreboard"]))
+    print("Hardcore/Terralith Install: "+ str(settings["hardcore"] or settings["terralith"]))
+    print("Rewards:")
+    for reward in settings["rewards"]:
+        print(f"  {reward}: {settings["rewards"][reward]}")
+    print("Co-op: "+ str(settings["multiplayer"]["co-op"]))
+    if(settings["multiplayer"]["co-op"]):
+        print("  Team: "+ settings["multiplayer"]["team"])
+    
         
 main()
