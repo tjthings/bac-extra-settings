@@ -8,6 +8,7 @@ Animals: Axolotls Bred, Pandas Bred, Llamas Tamed
 Chests: Ancient City Chests, Buried Treasures
 
 All new statistics can be viewed by running the command /trigger stats_view
+
 ![image](https://github.com/tjthings/bac-extra-settings/assets/149956294/8b386861-2a85-440d-b755-c04c633d14df)
 
 # Standard Settings
