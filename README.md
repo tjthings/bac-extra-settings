@@ -17,7 +17,9 @@ Datapack Presets Downloads (in releases)
 - SCOREBOARD: Automatically turn on advancement scoreboard
 - HARDCORE: Scoreboard + Hardcore/Terralith install functions (MUST DOWNLOAD THOSE DATAPACKS SEPARATELY)
 - NO-TROPHIES: Scoreboard + no trophies (how I prefer to play :])
+- NO-REWARDS: Scoreboard + no advancement rewards
 - CO-OP: Basic co-op settings, advancement rewards only go to first player, all players added to a the same team
+If you want some combination of multiple (ie. hardcore w/ no rewards or removing scoreboard) follow the steps below to generate your own datapack
 
 How to customize your settings:
 1) Download the source code from releases and unzip
