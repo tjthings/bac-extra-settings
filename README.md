@@ -25,7 +25,7 @@ How to customize your settings:
 1) Download the source code from releases and unzip
 2) Change what config settings you want to change in the settings.json file
 3) Run make.py (python3 is required)
-4) COPY (not move or cut, in case you want to adjust settings again) the BAC-Settings folder into your world's datapack folder
+4) COPY (not move or cut, in case you want to adjust settings again) the BAC-Extra folder into your world's datapack folder
 
 scoreboard: true or false, whether to display the basic advancement scoreboard on the sidebar, becomes team scoreboard in team co-op
 hardcore / terralith: true or false, runs the install functions for 
