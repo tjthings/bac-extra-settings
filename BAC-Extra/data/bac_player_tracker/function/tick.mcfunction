@@ -1,0 +1,1 @@
+execute as @a unless score @s stats_joined matches 1.. run function bac_player_tracker:join

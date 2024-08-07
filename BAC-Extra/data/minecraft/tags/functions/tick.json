@@ -2,6 +2,7 @@
 	"replace": false,
 	"values": [
 		"bac_settings:tick",
-		"extra_stats:tick"
+		"extra_stats:tick",
+		"bac_player_tracker:tick"
 	]
 }
