@@ -65,7 +65,7 @@ def print_settings(settings):
     print("Hardcore/Terralith Install: "+ str(settings["hardcore"] or settings["terralith"]))
     print("Rewards:")
     for reward in settings["rewards"]:
-        print(f"  {reward}: {settings["rewards"][reward]}")
+        print(f'  {reward}: {settings["rewards"][reward]}')
     print("Co-op: "+ str(settings["multiplayer"]["co-op"]))
     if(settings["multiplayer"]["co-op"]):
         print("  Team: "+ settings["multiplayer"]["team"])
