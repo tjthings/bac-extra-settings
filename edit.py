@@ -2,8 +2,8 @@ import re
 import os
 
 def main():
-    data = os.path.join(os.getcwd(),'bc_rewards','function')
-    dest = os.path.join(os.getcwd(), 'BAC-Extra', 'data', 'bc_rewards','function')
+    data = os.path.join(os.getcwd(),'bacap_rewards','function')
+    dest = os.path.join(os.getcwd(), 'BAC-Extra', 'data', 'bacap_rewards','function')
 
     for tab in os.listdir(data):
         for func in os.listdir(os.path.join(data,tab)):
