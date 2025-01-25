@@ -1,0 +1,3 @@
+execute unless score minecraft:adventure/craft_decorated_pot_using_only_sherds tracker_advancement matches 1.. run scoreboard players operation minecraft:adventure/craft_decorated_pot_using_only_sherds tracker_advancement = @s tracker_players
+execute unless score minecraft:adventure/craft_decorated_pot_using_only_sherds tracker_advancement_order matches 1.. run scoreboard players add .total tracker_advancement_order 1
+execute unless score minecraft:adventure/craft_decorated_pot_using_only_sherds tracker_advancement_order matches 1.. run scoreboard players operation minecraft:adventure/craft_decorated_pot_using_only_sherds tracker_advancement_order = .total tracker_advancement_order

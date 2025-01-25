@@ -1,0 +1,3 @@
+execute unless score blazeandcave:nether/light_show tracker_advancement matches 1.. run scoreboard players operation blazeandcave:nether/light_show tracker_advancement = @s tracker_players
+execute unless score blazeandcave:nether/light_show tracker_advancement_order matches 1.. run scoreboard players add .total tracker_advancement_order 1
+execute unless score blazeandcave:nether/light_show tracker_advancement_order matches 1.. run scoreboard players operation blazeandcave:nether/light_show tracker_advancement_order = .total tracker_advancement_order

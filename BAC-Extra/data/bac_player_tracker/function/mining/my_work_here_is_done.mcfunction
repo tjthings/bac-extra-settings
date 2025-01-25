@@ -1,0 +1,3 @@
+execute unless score blazeandcave:mining/my_work_here_is_done tracker_advancement matches 1.. run scoreboard players operation blazeandcave:mining/my_work_here_is_done tracker_advancement = @s tracker_players
+execute unless score blazeandcave:mining/my_work_here_is_done tracker_advancement_order matches 1.. run scoreboard players add .total tracker_advancement_order 1
+execute unless score blazeandcave:mining/my_work_here_is_done tracker_advancement_order matches 1.. run scoreboard players operation blazeandcave:mining/my_work_here_is_done tracker_advancement_order = .total tracker_advancement_order

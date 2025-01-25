@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "bac_player_tracker:bacap/root",
+        "bac_player_tracker:add_player"
+    ]
+}

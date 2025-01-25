@@ -1,0 +1,3 @@
+execute unless score blazeandcave:building/your_door_was_locked tracker_advancement matches 1.. run scoreboard players operation blazeandcave:building/your_door_was_locked tracker_advancement = @s tracker_players
+execute unless score blazeandcave:building/your_door_was_locked tracker_advancement_order matches 1.. run scoreboard players add .total tracker_advancement_order 1
+execute unless score blazeandcave:building/your_door_was_locked tracker_advancement_order matches 1.. run scoreboard players operation blazeandcave:building/your_door_was_locked tracker_advancement_order = .total tracker_advancement_order

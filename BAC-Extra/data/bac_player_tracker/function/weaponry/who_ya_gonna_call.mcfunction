@@ -1,0 +1,3 @@
+execute unless score blazeandcave:weaponry/who_ya_gonna_call tracker_advancement matches 1.. run scoreboard players operation blazeandcave:weaponry/who_ya_gonna_call tracker_advancement = @s tracker_players
+execute unless score blazeandcave:weaponry/who_ya_gonna_call tracker_advancement_order matches 1.. run scoreboard players add .total tracker_advancement_order 1
+execute unless score blazeandcave:weaponry/who_ya_gonna_call tracker_advancement_order matches 1.. run scoreboard players operation blazeandcave:weaponry/who_ya_gonna_call tracker_advancement_order = .total tracker_advancement_order

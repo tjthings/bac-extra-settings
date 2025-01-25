@@ -1,0 +1,3 @@
+execute unless score minecraft:husbandry/safely_harvest_honey tracker_advancement matches 1.. run scoreboard players operation minecraft:husbandry/safely_harvest_honey tracker_advancement = @s tracker_players
+execute unless score minecraft:husbandry/safely_harvest_honey tracker_advancement_order matches 1.. run scoreboard players add .total tracker_advancement_order 1
+execute unless score minecraft:husbandry/safely_harvest_honey tracker_advancement_order matches 1.. run scoreboard players operation minecraft:husbandry/safely_harvest_honey tracker_advancement_order = .total tracker_advancement_order

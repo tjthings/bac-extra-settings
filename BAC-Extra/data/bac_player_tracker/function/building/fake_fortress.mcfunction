@@ -1,0 +1,3 @@
+execute unless score blazeandcave:building/fake_fortress tracker_advancement matches 1.. run scoreboard players operation blazeandcave:building/fake_fortress tracker_advancement = @s tracker_players
+execute unless score blazeandcave:building/fake_fortress tracker_advancement_order matches 1.. run scoreboard players add .total tracker_advancement_order 1
+execute unless score blazeandcave:building/fake_fortress tracker_advancement_order matches 1.. run scoreboard players operation blazeandcave:building/fake_fortress tracker_advancement_order = .total tracker_advancement_order

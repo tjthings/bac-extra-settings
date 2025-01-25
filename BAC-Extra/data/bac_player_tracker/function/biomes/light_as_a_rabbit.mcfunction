@@ -1,0 +1,3 @@
+execute unless score minecraft:adventure/walk_on_powder_snow_with_leather_boots tracker_advancement matches 1.. run scoreboard players operation minecraft:adventure/walk_on_powder_snow_with_leather_boots tracker_advancement = @s tracker_players
+execute unless score minecraft:adventure/walk_on_powder_snow_with_leather_boots tracker_advancement_order matches 1.. run scoreboard players add .total tracker_advancement_order 1
+execute unless score minecraft:adventure/walk_on_powder_snow_with_leather_boots tracker_advancement_order matches 1.. run scoreboard players operation minecraft:adventure/walk_on_powder_snow_with_leather_boots tracker_advancement_order = .total tracker_advancement_order

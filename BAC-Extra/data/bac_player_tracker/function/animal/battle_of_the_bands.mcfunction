@@ -1,0 +1,3 @@
+execute unless score blazeandcave:animal/battle_of_the_bands tracker_advancement matches 1.. run scoreboard players operation blazeandcave:animal/battle_of_the_bands tracker_advancement = @s tracker_players
+execute unless score blazeandcave:animal/battle_of_the_bands tracker_advancement_order matches 1.. run scoreboard players add .total tracker_advancement_order 1
+execute unless score blazeandcave:animal/battle_of_the_bands tracker_advancement_order matches 1.. run scoreboard players operation blazeandcave:animal/battle_of_the_bands tracker_advancement_order = .total tracker_advancement_order

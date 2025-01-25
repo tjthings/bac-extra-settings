@@ -1,0 +1,3 @@
+execute unless score minecraft:adventure/very_very_frightening tracker_advancement matches 1.. run scoreboard players operation minecraft:adventure/very_very_frightening tracker_advancement = @s tracker_players
+execute unless score minecraft:adventure/very_very_frightening tracker_advancement_order matches 1.. run scoreboard players add .total tracker_advancement_order 1
+execute unless score minecraft:adventure/very_very_frightening tracker_advancement_order matches 1.. run scoreboard players operation minecraft:adventure/very_very_frightening tracker_advancement_order = .total tracker_advancement_order

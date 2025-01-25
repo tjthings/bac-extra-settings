@@ -1,0 +1,3 @@
+execute unless score minecraft:story/enter_the_end tracker_advancement matches 1.. run scoreboard players operation minecraft:story/enter_the_end tracker_advancement = @s tracker_players
+execute unless score minecraft:story/enter_the_end tracker_advancement_order matches 1.. run scoreboard players add .total tracker_advancement_order 1
+execute unless score minecraft:story/enter_the_end tracker_advancement_order matches 1.. run scoreboard players operation minecraft:story/enter_the_end tracker_advancement_order = .total tracker_advancement_order

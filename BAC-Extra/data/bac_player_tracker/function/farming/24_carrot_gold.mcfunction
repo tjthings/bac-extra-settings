@@ -1,0 +1,3 @@
+execute unless score blazeandcave:farming/24_carrot_gold tracker_advancement matches 1.. run scoreboard players operation blazeandcave:farming/24_carrot_gold tracker_advancement = @s tracker_players
+execute unless score blazeandcave:farming/24_carrot_gold tracker_advancement_order matches 1.. run scoreboard players add .total tracker_advancement_order 1
+execute unless score blazeandcave:farming/24_carrot_gold tracker_advancement_order matches 1.. run scoreboard players operation blazeandcave:farming/24_carrot_gold tracker_advancement_order = .total tracker_advancement_order

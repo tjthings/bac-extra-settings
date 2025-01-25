@@ -1,0 +1,3 @@
+execute unless score blazeandcave:biomes/theres_a_zombie_on_the_lawn tracker_advancement matches 1.. run scoreboard players operation blazeandcave:biomes/theres_a_zombie_on_the_lawn tracker_advancement = @s tracker_players
+execute unless score blazeandcave:biomes/theres_a_zombie_on_the_lawn tracker_advancement_order matches 1.. run scoreboard players add .total tracker_advancement_order 1
+execute unless score blazeandcave:biomes/theres_a_zombie_on_the_lawn tracker_advancement_order matches 1.. run scoreboard players operation blazeandcave:biomes/theres_a_zombie_on_the_lawn tracker_advancement_order = .total tracker_advancement_order
