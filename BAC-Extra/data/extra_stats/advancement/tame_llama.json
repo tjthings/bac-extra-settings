@@ -4,9 +4,12 @@
             "trigger": "minecraft:tame_animal",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:llama"
+                    "type": ["minecraft:llama", "minecraft:trader_llama"]
                 }
             }
         }
-    }
+    },
+    "rewards": {
+		"function": "extra_stats:tame_llama"
+	}
 }

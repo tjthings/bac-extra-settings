@@ -6,5 +6,8 @@
 				"loot_table": "minecraft:chests/buried_treasure"
 			}
 		}
-    }
+    },
+	"rewards": {
+		"function": "extra_stats:buried_treasure"
+	}
 }

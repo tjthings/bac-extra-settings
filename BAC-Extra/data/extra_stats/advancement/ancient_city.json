@@ -6,5 +6,8 @@
 				"loot_table": "minecraft:chests/ancient_city"
 			}
 		}
-    }
+    },
+	"rewards": {
+		"function": "extra_stats:ancient_city"
+	}
 }

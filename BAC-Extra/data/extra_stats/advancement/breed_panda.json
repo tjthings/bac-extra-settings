@@ -11,5 +11,8 @@
 				}
 			}
 		}
+	},
+	"rewards": {
+		"function": "extra_stats:breed_panda"
 	}
 }

@@ -1,7 +1,6 @@
 {
 	"replace": false,
 	"values": [
-		"bac_settings:load",
 		"extra_stats:load",
 		"bac_player_tracker:load"
 	]
