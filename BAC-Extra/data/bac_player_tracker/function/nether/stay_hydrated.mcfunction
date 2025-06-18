@@ -1,0 +1,3 @@
+execute unless score minecraft:husbandry/place_dried_ghast_in_water tracker_advancement matches 1.. run scoreboard players operation minecraft:husbandry/place_dried_ghast_in_water tracker_advancement = @s tracker_players
+execute unless score minecraft:husbandry/place_dried_ghast_in_water tracker_advancement_order matches 1.. run scoreboard players add .total tracker_advancement_order 1
+execute unless score minecraft:husbandry/place_dried_ghast_in_water tracker_advancement_order matches 1.. run scoreboard players operation minecraft:husbandry/place_dried_ghast_in_water tracker_advancement_order = .total tracker_advancement_order
